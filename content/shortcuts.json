@@ -1,0 +1,20 @@
+{
+  "shortcuts": [
+    {
+      "label": "Pesquisar",
+      "short": ["/"]
+    },
+    {
+      "label": "Fechar janelas",
+      "short": ["ESC"]
+    },
+    {
+      "label": "Ocultar menu lateral",
+      "short": ["CTRL", "Q"]
+    },
+    {
+      "label": "Acessar busca do menu lateral",
+      "short": ["CTRL", "B"]
+    }
+  ]
+}

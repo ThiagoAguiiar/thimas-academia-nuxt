@@ -1,0 +1,58 @@
+{
+  "sidebar": [
+    {
+      "key": "alunos",
+      "name": "Alunos",
+      "icon": "fluent:people-24-regular",
+      "baseURL": "/admin/alunos/",
+      "subLinks": [
+        {
+          "name": "Novo aluno",
+          "url": "novo",
+          "icon": "ion:add-circle-outline",
+          "counter": 0
+        },
+        {
+          "name": "Lista de alunos",
+          "url": "",
+          "icon": "fluent:list-24-regular",
+          "counter": 0
+        }
+      ]
+    },
+    {
+      "key": "professores",
+      "name": "Professores",
+      "icon": "fluent:teaching-20-regular",
+      "baseURL": "/admin/professores/",
+      "subLinks": [
+        {
+          "name": "Novo professor",
+          "url": "",
+          "icon": "ion:add-circle-outline",
+          "counter": 0
+        },
+        {
+          "name": "Lista de professores",
+          "url": "",
+          "icon": "fluent:list-24-regular",
+          "counter": 0
+        }
+      ]
+    },
+    {
+      "key": "site",
+      "name": "Sistema",
+      "icon": "ph:globe-light",
+      "baseURL": "/admin/sistema/",
+      "subLinks": [
+        {
+          "name": "Configurações",
+          "url": "",
+          "icon": "codicon:tools",
+          "counter": 0
+        }
+      ]
+    }
+  ]
+}
