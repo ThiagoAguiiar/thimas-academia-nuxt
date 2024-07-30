@@ -19,12 +19,11 @@ export const getSolicitation = async (email: string, token: string) => {
     .select("*")
     .eq("email", email)
     .eq("token", token)
-    .order("createdAt", { ascending: false })
-    .limit(1);
+    .single();
 
   if (error) throw new Error(error.message);
 
-  return data[0] as IGetSolicitation;
+  return data as IGetSolicitation;
 };
 
 export const updateSolicitation = async(obj: IPutSolicitation) => {

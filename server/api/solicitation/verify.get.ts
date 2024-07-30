@@ -72,6 +72,12 @@ export default defineEventHandler(async (event) => {
       ...solicitation,
       isValidate: true,
     });
+
+    return handleResponse({
+      msg: "Solicitação validada com sucesso",
+      msgType: "SUCCESS",
+      status: 200,
+    });
   } catch (err) {
     return handleResponse({
       status: 500,
